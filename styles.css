@@ -23,7 +23,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("https://i.redd.it/dcgcrvejc9x41.jpg");
+    background:linear-gradient(90deg, rgb(0,137,144),cyan);
     position: fixed;
     left: 0;
     top: 0;
