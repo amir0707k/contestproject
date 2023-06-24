@@ -7,6 +7,7 @@ nav ul li{
     display: inline-block;
     margin: 0 15px;
     font-size: 34px;
+    font-weight: 900;
 }
 body{
     padding-top: 140px;
@@ -14,7 +15,7 @@ body{
     background-color: rgba(238, 238, 238, 0.858);
     background-size: cover;
     background-position: center;
-    background-image: url("https://images3.alphacoders.com/131/1313942.png");
+    background:rgb(193, 255, 250);
 }
 ul{
     padding: 20px;
@@ -96,20 +97,20 @@ input:focus{
 }
 #submit{
     display: block;
-    width: 60%;
-    height: 100px;
+    width: 50%;
+    height: 70px;
     margin: 40px auto;
     padding: 15px;
-    font-size: 42px;
+    font-size: 24px;
     border-radius: 32px;
     border: none;
     font-family: sans-serif;
-    background-image: url("https://images3.alphacoders.com/131/1313942.png");
+    background-color: rgb(2, 118, 108);
     background-size: cover;
     background-position: center;
     color: rgb(193, 255, 250);
     background-repeat: no-repeat;
-    box-shadow: 6px 6px 12px rgb(174,86,67);
+    box-shadow: 6px 6px 12px rgb(60, 102, 98);
     font-weight: 800;
 }
 a:hover{
@@ -119,9 +120,17 @@ a{
     color:rgb(7, 104, 96);
 }
 nav a:hover{
-    color: white;
+    color: rgb(33, 111, 106);
     font-weight: 800;
 }
 nav a{
-    color: rgb(255, 187, 0);
+    color: rgb(255, 255, 255);
+}
+footer{
+    background:linear-gradient(90deg, cyan,rgb(0,137,144));
+    margin-top: 50px;
+    text-align: center;
+}
+#submit:hover{
+    cursor:pointer;
 }
