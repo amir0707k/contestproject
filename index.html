@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#books"><li>Books</li></a>
+                <a href="#form"><li>Register</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="books">
+                <p>Books</p>
+        <table class="table">
+            <tr>
+                <th>
+                    Book ID
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                   Author
+                </th>
+                <th>
+                    Genre
+                </th>
+                <th>
+                    Availability
+                </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography</a>
+                    <table class="inner-table">
+                        <tr><td>Publication Date: September 2000</td></tr>
+                        <tr><td>Page Count: 432</td></tr>
+                        <tr><td>ISBN: 978-0385495325</td></tr>
+                    </table>
+                </td>
+                <td>
+                    Simon Singh
+                </td>
+                <td>
+                    Technology/Cryptography
+                </td>
+                <td>
+                    Available
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="#">Ghost in the Wires: My Adventures as the World's Most Wanted Hacker</a>
+                    <table class="inner-table">
+                        <tr><td>Publication Date: August 2011</td></tr>
+                        <tr><td>Page Count: 432</td></tr>
+                        <tr><td>ISBN:  978-0316037709</td></tr>
+                    </table>
+                </td>
+                <td>
+                    Kevin Mitnick
+                </td>
+                <td>
+                    Hacking/Autobiography
+                </td>
+                <td>
+                    Not Available
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="#">Influence: The Psychology of Persuasion</a>
+                    <table class="inner-table">
+                        <tr><td>Publication Date: December 2006</td></tr>
+                        <tr><td>Page Count: 336</td></tr>
+                        <tr><td>ISBN: 978-0061241895</td></tr>
+                    </table>
+                </td>
+                <td>
+                    Robert B. Cialdini
+                </td>
+                <td>
+                    Psychology/Social Psychology
+                </td>
+                <td>
+                    Available
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <a href="#">Thinking, Fast and Slow</a>
+                    <table class="inner-table">
+                        <tr><td>Publication Date: October 2011</td></tr>
+                        <tr><td>Page Count: 512</td></tr>
+                        <tr><td>ISBN: 978-0374533557
+                        </td></tr>
+                    </table>
+                </td>
+                <td>
+                    Daniel Kahneman
+                </td>
+                <td>
+                    Psychology/Behavioral Economics
+                </td>
+                <td>
+                    Available
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    <a href="#">The Shallows: What the Internet Is Doing to Our Brains</a>
+                    <table class="inner-table">
+                        <tr><td>Publication Date: June 2011</td></tr>
+                        <tr><td>Page Count: 276</td></tr>
+                        <tr><td>ISBN: 978-0393339758</td></tr>
+                    </table>
+                </td>
+                <td>
+                    Nicholas Carr
+                </td>
+                <td>
+                    Technology/Cognitive Science
+                </td>
+                <td>
+                    Available
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div class="form-group">
+            <form id="form" action="POST">
+                <p>Register Yourself</p>
+                <div class="inputs">
+                    <label for="first-name" class="label" id="first-name-label">* First Name:<input type="text" id="first-name" required class="form-control" placeholder="Enter your first-name"></label>
+                </div>
+                <div class="inputs">
+                    <label for="last-name" class="label" id="last-name-label">* Last Name:<input type="text" id="last-name" required class="form-control" placeholder="Enter your last-name"></label>
+                </div>
+                <div class="inputs">
+                    <label for="dob" class="label" id="birth-date-label">* Date of Birth:<input type="date" max="2018-06-24" min="1923-06-24" id="birth-date" required class="form-control" placeholder="Date of Birth"></label>
+                </div>
+                <div class="inputs">
+                    <label for="age" class="label" id="age-label">* Age:<input type="number" required id="age" class="form-control" min="5" max="100" placeholder="Age should be less than 100 and greater than 13"></label>
+                </div>
+                <div class="inputs">
+                    <label for="email" class="label" id="email-label">* Email:<input type="email" required id="email" class="form-control" placeholder="Enter your email"></label>
+                </div>
+                <div class="inputs">
+                    <label for="password" class="label" id="password-label">* Password<input type="password" minlength="8" required id="password"  class="form-control" placeholder="Choose a Password"></label>
+                </div>
+                <div class="inputs">
+                    <label for="password" class="label" id="password-label">* Confirm Password<input type="password" minlength="8" required class="form-control" id="password" placeholder="Please Enter the  Password Again"></label>
+                </div>
+                <div class="inputs">
+                    <button type="submit" id="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
